@@ -14,3 +14,13 @@ end
   end
 
 end
+
+falguni = Student.new("Falguni", "Aktar", "falguni1", "aktarn926@gmail.com",
+"password1")
+john = Student.new("John", "Doe", "john1", "john1@example.com",
+"password2")
+puts falguni
+puts john
+falguni.last_name = john.last_name
+puts "Falguni is altered"
+puts falguni
